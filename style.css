@@ -1,0 +1,20 @@
+/* Criterios CSS
+
+6. Se han aplicado estilos globales para añadir box-sizing: border-box; y eliminar el padding y margin del body.
+
+7. El posicionamiento de los elementos se ha realizado por medio de flex. En su defecto, se habrá podido usar grid para esto.
+
+8. La web cuenta con media queries para hacerla responsive, de forma que se ve el contenido correctamente en móvil menor de 375px y en “escritorio” mayor que mobile.
+
+9. Punto adicional si haces la web adecuada para tablet, entre los rangos de 375px y 768px.
+
+10. Existen variables de CSS para los colores y tamaños más utilizados. */
+
+:root {
+  --color-0: rgb(255, 255, 255);
+  --color-1: #f5f5f5;
+}
+
+div {
+  background-color: var(--color-1);
+}

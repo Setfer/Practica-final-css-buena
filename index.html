@@ -1,15 +1,71 @@
+<!-- 
+  Criterios HTML
+  1. Has creado una estructura HTML semántica donde priman los section y article frente a los div siempre y cuando sea correcto su uso. Estará el contenido envuelto en un main.
+2. La web cuenta con al menos un elemento header o un elemento footer para contenido de navegación o adicional.
+3. Hay al menos un elemento de tipo ul o de tipo ol con varios productos enumerados.
+4. La web tendrá imágenes para al menos 10 productos, puedes copiar su URL de la web original haciendo click derecho > abrir imagen en nueva pestaña > copia la URL de la imagen o con el inspector del navegador.
+5. La web contendrá links a que apunten a los productos originales, recuerda usar rel="noopener" para añadir links a webs externas. -->
+
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>El corte ingles</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    hola buenas tardeeada adfa a a 
-
-    adadad
-    <address></address>
+    <header>
+      <div>
+        <img src="#" alt="barra menu" />
+        <img src="#" alt="logo" />
+      </div>
+      <form action="#" method="get">
+        <input type="search" placeholder="Buscar" />
+        <button type="submit"><img src="#" alt="lupa" /></button>
+      </form>
+      <nav>
+        <ul>
+          <li>
+            <a
+              href="https://cuenta.elcorteingles.es/consulta-tu-compra/?locale=es&source=eciStore&_gl=1*jnnci7*_ga*NDk4Nzg4MTU3LjE3MTcxNjE0Mzc.*_ga_XG9L1L3E0D*MTcxNzE2MTQzNy4xLjEuMTcxNzE2MjMwMS4wLjAuMA..#_ga=2.139308596.620012381.1717161437-498788157.1717161437"
+              rel="noopener"
+              target="_blank"
+              >Consulta pedidos
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.financieraelcorteingles.es/nuevatarjeta"
+              rel="noopener"
+              target="_blank"
+              >Nuestra tarjeta
+            </a>
+          </li>
+          <li>
+            <a
+              href="https://www.elcorteingles.es/centroscomerciales/es/eci"
+              rel="noopener"
+              target="_blank"
+              >Nuestras tiendas</a
+            >
+          </li>
+          <li>
+            <a
+              href="http://www.elcorteingles.es/ayuda/es"
+              rel="noopener"
+              target="_blank"
+              >ayuda
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <div>
+        <a
+          href="https://cuenta.elcorteingles.es/oauth/authorize?response_type=code&scope=openid%20profile%20plans&client_id=rjx5snOWlh40SgcE0dg2guk4YnXhECYd&redirect_uri=https%3A%2F%2Fwww.elcorteingles.es%2Fecistore%2Fsession%2Fcallback%3Fto%3D%252F&back_to=https%3A%2F%2Fwww.elcorteingles.es%2F&locale=es&_gl=1*m0lsg5*_gcl_au*NzU5NjQzMzcyLjE3MTcxNjE0NDg.*_ga*NDk4Nzg4MTU3LjE3MTcxNjE0Mzc.*_ga_XG9L1L3E0D*MTcxNzE2MTQzNy4xLjEuMTcxNzE2Mjg1NC4wLjAuMA..#_ga=2.151890878.620012381.1717161437-498788157.1717161437"
+        >Iniciar sesión</a>
+        <a href="#"><img src="#" alt="cesta compra"></a>
+      </div>
+    </header>
   </body>
 </html>
