@@ -17,7 +17,7 @@
   --color-font-2: #3e3e3e;
 }
 
-*{
+* {
   margin: 0;
   padding: 0;
   list-style: none;
@@ -28,19 +28,43 @@
 header {
   display: flex;
   position: fixed;
-  justify-content: flex-start;
-
+  width: 100%;
+  justify-content: space-around;
+  background-color: var(--color-background-2);
 }
-#barra-menu {
+header > nav > ul {
+  display: flex;
+  flex-direction: row;
+}
+header > nav > ul > li {
+  margin: 10px;
+}
+
+header > form > input {
+  padding: 15px;
+}
+header > form > button {
+  display: flex;
+  position: absolute;
+  top: 1px;
+  left: 38%;
+  padding: 14px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+#barra-menu-logo {
   display: none;
 }
-#logo{
+#logo {
   height: 60px;
 }
 
-#lupa{
+#lupa-logo {
+  display: block;
   height: 15px;
 }
-#cesta{
+#cesta-logo {
   height: 40px;
 }
