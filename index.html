@@ -13,16 +13,24 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>El corte ingles</title>
     <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <header>
       <div>
-        <img src="#" alt="barra menu" id="barra-menu-logo" />
+        <img src="./assets/menu (1).png" alt="barra menu" id="barra-menu-logo" />
         <img src="./assets/logo.png" alt="logo" id="logo" />
       </div>
-      <form action="#" method="get">
+      <form class="mi-formulario" action="#" method="get">
         <input type="search" placeholder="Buscar" />
-        <button type="submit"><img src="./assets/lupa.png" alt="lupa" id="lupa-logo"/></button>
+        <button type="submit">
+          <img src="./assets/lupa.png" alt="lupa" id="lupa-logo" />
+        </button>
       </form>
       <nav>
         <ul>
@@ -58,18 +66,450 @@
               >ayuda
             </a>
           </li>
+          <li>
+            <a
+              href="https://cuenta.elcorteingles.es/oauth/authorize?response_type=code&scope=openid%20profile%20plans&client_id=rjx5snOWlh40SgcE0dg2guk4YnXhECYd&redirect_uri=https%3A%2F%2Fwww.elcorteingles.es%2Fecistore%2Fsession%2Fcallback%3Fto%3D%252F&back_to=https%3A%2F%2Fwww.elcorteingles.es%2F&locale=es&_gl=1*m0lsg5*_gcl_au*NzU5NjQzMzcyLjE3MTcxNjE0NDg.*_ga*NDk4Nzg4MTU3LjE3MTcxNjE0Mzc.*_ga_XG9L1L3E0D*MTcxNzE2MTQzNy4xLjEuMTcxNzE2Mjg1NC4wLjAuMA..#_ga=2.151890878.620012381.1717161437-498788157.1717161437"
+              >Iniciar sesión</a
+            >
+          </li>
         </ul>
       </nav>
-      <div>
-        <a
-          href="https://cuenta.elcorteingles.es/oauth/authorize?response_type=code&scope=openid%20profile%20plans&client_id=rjx5snOWlh40SgcE0dg2guk4YnXhECYd&redirect_uri=https%3A%2F%2Fwww.elcorteingles.es%2Fecistore%2Fsession%2Fcallback%3Fto%3D%252F&back_to=https%3A%2F%2Fwww.elcorteingles.es%2F&locale=es&_gl=1*m0lsg5*_gcl_au*NzU5NjQzMzcyLjE3MTcxNjE0NDg.*_ga*NDk4Nzg4MTU3LjE3MTcxNjE0Mzc.*_ga_XG9L1L3E0D*MTcxNzE2MTQzNy4xLjEuMTcxNzE2Mjg1NC4wLjAuMA..#_ga=2.151890878.620012381.1717161437-498788157.1717161437"
-          >Iniciar sesión</a
-        >
+      <div id="cesta-cont">
         <a href="#"
-          ><img src="./assets/cesta compra.png" alt="cesta compra" id="cesta-logo"
+          ><img
+            src="./assets/cesta compra.png"
+            alt="cesta compra"
+            id="cesta-logo"
         /></a>
       </div>
     </header>
+    <main>
+      <section id="categorias">
+        <nav>
+          <ul>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.elcorteingles.es/moda-mujer/"
+                >MODA MUJER</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.elcorteingles.es/deportes/"
+                >DEPORTES</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.elcorteingles.es/electronica/"
+                >ELECTRÓNICA</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.elcorteingles.es/hogar/"
+                >HOGAR</a
+              >
+            </li>
+            <li>
+              <a
+                target="_blank"
+                rel="noopener"
+                href="https://www.elcorteingles.es/supermercado/?utm_source=eci&utm_medium=home&utm_campaign=botones"
+                >SUPERMERCADO</a
+              >
+            </li>
+          </ul>
+        </nav>
+      </section>
+      <section id="tendencias">
+        <article id="titulo-tendencias">
+          <h2>Tendencias del momento</h2>
+          <p>Un espacio en el que inspirarte</p>
+        </article>
+        <article id="contenedor-main-tendencias">
+          <article class="contenedor-tendencia">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/blues-ccmoda1/moda-mujer/"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/SJCDgLVNR.jpeg?impolicy=Resize&width=1280"
+                alt="momento azul"
+              />
+            </a>
+            <h3>LLEGA EL MOMENTO AZUL</h3>
+          </article>
+          <article class="contenedor-tendencia">
+            <a
+              rel="noopener"
+              href="http://127.0.0.1:5500/Practica%20final%20css/Practica-final-css/index.html"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/ByEkU7mER.jpeg?impolicy=Resize&width=1280"
+                alt="taylor"
+              />
+            </a>
+            <h3>TAYLOR SWIFT</h3>
+          </article>
+          <article class="contenedor-tendencia">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/zapatillas-lona-para-el-ccmoda1/moda-hombre/zapatos/zapatillas/"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/Hy-HalU4EC.jpeg?impolicy=Resize&width=1280"
+                alt="zapatillas"
+            /></a>
+            <h3>ZAPATILLAS DE LONA</h3>
+          </article>
+          <article class="contenedor-tendencia">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/maraton-ccdeportes1/deportes/"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/SkenVW8EEA.jpeg?impolicy=Resize&width=1280"
+                alt="reto"
+              />
+            </a>
+            <h3>SUPERA TU MAYOR RETO CORRIENDO</h3>
+          </article>
+          <article class="contenedor-tendencia">
+            <a href="https://www.elcorteingles.es/feria-de-artesania/">
+              <video
+                rel="noopener"
+                src="https://ecihdvod.akamaized.net/DCTM/MEDIA03/202405/07/eci home_2405_tendencias_videoloop_feria de artesania_mp4_VID_P_1_.mp4"
+                preload="auto"
+                autoplay
+                muted
+                loop
+                playsinline
+              ></video
+            ></a>
+            <h3>FERIA DE ARTESANIA</h3>
+          </article>
+          <article class="contenedor-tendencia">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/hogar/terraza-y-jardin/alfombras-para-exterior/"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/HyBIeWLVNA.jpeg?impolicy=Resize&width=1280"
+                alt="ALFONBRAS"
+              />
+            </a>
+            <h3>ALFONBRAS DE VERANO</h3>
+          </article>
+          <article class="contenedor-tendencia">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/alimentacion/minisite/011012632234-origen-vegetal/?utm_source=eci&utm_medium=home&utm_campaign=tendencias-2024-05-30&utm_content=plant-based"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/BJWmGU440.jpeg?impolicy=Resize&width=1280"
+                alt="vegetal"
+              />
+            </a>
+            <h3>VEGETAL</h3>
+          </article>
+          <article class="contenedor-tendencia">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/electrodomesticos/depiladoras/"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/H1lTruFEV0.jpeg?impolicy=Resize&width=1280"
+                alt="piel"
+            /></a>
+            <h3>PREPARA TU PIEL</h3>
+          </a>
+        </article>
+      </section>
+      <section id="ofertas">
+        <article id="titulo-ofertas">
+          <h2>Las mejoras ofertas</h2>
+          <p>Una selección de promociones creadas especialmente para ti</p>
+        </article>
+        <div id="contenedor-main-ofertas">
+          <article class="contenedor-oferta">
+            <a rel="noopener" href="https://www.elcorteingles.es/videojuegos/">
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/S1pAPPQ4R.svg?impolicy=Resize&width=1920"
+                alt="ofeta ps5"
+              />
+            </a>
+            <h3>CONSOLA PS5 SLIM DIGITAL</h3>
+            <span class="precio"><p><em>399,90 €</em></p></span>
+            <p>
+              Soporte vertical vendido por separado. Del 29 de mayo al 12 de
+              junio
+            </p>
+            <a rel="noopener" href="https://www.elcorteingles.es/videojuegos/"
+              >Ver más ofertas de PlayStation</a
+            >
+          </article>
+          <article class="contenedor-oferta">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/club-del-gourmet/A51744107-paleta-de-bellota-100-iberica-la-dehesa-de-los-monteros/"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/SJMNRwMwER.svg?impolicy=Resize&width=1920"
+                alt="Jamón"
+              />
+            </a>
+            <h3>PALETA IBÉRICA LA DEHESA DE LOS MONTEROS PIEZA 5 KG</h3>
+            <span class="precio"><p><em>179 €</em></p></span>
+            <p>CLUB DEL GOURMET</p>
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/club-del-gourmet/A51744107-paleta-de-bellota-100-iberica-la-dehesa-de-los-monteros/"
+              >Ver oferta</a
+            >
+          </article>
+          <article class="contenedor-oferta">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/tous/moda-mujer/"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/rkfC6ywN4A.svg?impolicy=Resize&width=1920"
+                alt="mujer"
+              />
+            </a>
+            <h3>TUS DÍAS TOUS</h3>
+            <p><em>MODA MUJER</em></p>
+            <p>
+              Además, -15% adicional por la compra de 2 o más unidades. Del 30
+              de mayo al 9 de junio
+            </p>
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/tous/moda-mujer/"
+              >Ver ofertas</a
+            >
+          </article>
+          <article class="contenedor-oferta">
+            <a rel="noopener" href="">
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/SJlgfYFEEC.svg?impolicy=Resize&width=1920"
+                alt="sofás"
+              />
+            </a>
+            <h3>SELECCIÓN DE SOFÁS Y SILLONES</h3>
+            <p><em>Sofás que sientan muy bien</em></p>
+            <p>Del 30 de mayo al 9 de junio</p>
+            <a rel="noopener" href="https://www.elcorteingles.es/hogar/sofas/"
+              >Ver ofertas</a
+            >
+          </article>
+          <article class="contenedor-oferta">
+            <a
+              rel="noopener"
+              href="https://www.primeriti.es/?utm_source=eci&utm_medium=home_eci&utm_content=banner"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/Bylp6woNEA.svg?impolicy=Resize&width=1920"
+                alt="PRIMERITI"
+              />
+            </a>
+            <h3>PRIMERITI</h3>
+            <p>
+              <em
+                >Nike&Jordan, Lauren Ralph Lauren, Dockers, Banana Moon,
+                Delsey</em
+              >
+            </p>
+            <p>y mucho más...</p>
+            <a
+              rel="noopener"
+              href="https://www.primeriti.es/?utm_source=eci&utm_medium=home_eci&utm_content=banner"
+              >Ver ofertas</a
+            >
+          </article>
+          <article class="contenedor-oferta">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/hogar/colchones/"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/B1WYWBoumR.svg?impolicy=Resize&width=1920"
+                alt="DESCANSO"
+              />
+            </a>
+            <h3>REDESCUBRE EL DESCANSO</h3>
+            <p><em>Financiación hasta en 12 meses*</em></p>
+            <p>
+              En selección de colchones de Aspol, Pikolin, Flex, Relax y más.
+              Del 23 de mayo al 11 de junio
+            </p>
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/hogar/colchones/"
+              >Ver ofertas</a
+            >
+          </article>
+          <article class="contenedor-oferta">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/deportes/exclusivo-online-asics/"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/H1zqsI9N4A.svg?impolicy=Resize&width=1920"
+                alt="TEXTIL"
+              />
+            </a>
+            <h3>TEXTIL Y CALZADO DE PÁDEL Y TENIS ASICS</h3>
+            <p><em>Exclusivo online</em></p>
+            <p>Del 3 al 5 de junio</p>
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/deportes/exclusivo-online-asics/"
+              >Ver ofertas</a
+            >
+          </article>
+          <article class="contenedor-oferta">
+            <a rel="noopener" href="https://www.elcorteingles.es/mascotas/">
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/H1ZS0ogmV0.svg?impolicy=Resize&width=1920"
+                alt="Mascotas"
+              />
+            </a>
+            <h3>MASCOTAS</h3>
+            <p><em>Del 1 al 30 de junio</em></p>
+            <a rel="noopener" href="https://www.elcorteingles.es/mascotas/"
+              >Ver ofertas</a
+            >
+          </article>
+          <article class="contenedor-oferta">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/ofertas-supermercado/supermercado/?utm_source=eci&utm_medium=home&utm_campaign=quincenal-2024-05-23&utm_content=general-3x2"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/ByrQH6aK7C.svg?impolicy=Resize&width=1920"
+                alt="marcas"
+              />
+            </a>
+            <h3>LAS MEJORES MARCAS</h3>
+            <p><em>En miles de productos </em></p>
+            <p>Del 23 de mayo al 5 de junio</p>
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/ofertas-supermercado/supermercado/?utm_source=eci&utm_medium=home&utm_campaign=quincenal-2024-05-23&utm_content=general-3x2"
+              >Ver ofertas</a
+            >
+          </article>
+          <article class="contenedor-oferta">
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/alimentacion/minisite/011012631527-/?utm_source=eci&utm_medium=home&utm_campaign=quincenal-2024-05-23&utm_content=gazpachs-salmorejos-250"
+            >
+              <img
+                src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/Hy-Xh6aYmA.svg?impolicy=Resize&width=1920"
+                alt="GAZPACHOS"
+              />
+            </a>
+            <h3>SELECCIÓN DE GAZPACHOS Y SALMOREJOS</h3>
+            <p>Del 23 de mayo al 5 de junio</p>
+            <a
+              rel="noopener"
+              href="https://www.elcorteingles.es/alimentacion/minisite/011012631527-/?utm_source=eci&utm_medium=home&utm_campaign=quincenal-2024-05-23&utm_content=gazpachs-salmorejos-250"
+              >Ver ofertas</a
+            >
+          </article>
+        </div>
+      </section>
+      <section id="nuevos-espacios">
+        <article id="titulo-espacios" >
+          <h2>Nuevos Espacios</h2>
+          <p>Adéntrate en nuestro universo y vive experiencias únicas</p>
+        </article>
+        <div id="contenedor-main-espacios">
+          <article class="contenedor-espacio">
+            <a rel="noopener" href="https://www.elcorteingles.es/hogar/tienda-virtual/"><video src="https://ecihdvod.akamaized.net/DCTM/MEDIA03/202403/18/eci_2403_videloop espacio nuevo terraza y jardin mp4_VID_P_1_.mp4"
+            preload="auto"
+            autoplay
+            muted
+            loop>
+          </video></a>
+          <p>Visita nuestro espacio de Vida Al Aire Libre, Pozuelo. Madrid</p>
+          </article>
+          <article class="contenedor-espacio">
+            <a rel="noopener" href="https://www.elcorteingles.es/centroscomerciales/es/eci/centros/centro-comercial-goya">
+              <img src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/03/H1e5eHbvpT.jpeg?impolicy=Resize&width=1920" alt="Supermercado">
+            </a>
+            <p>Supermercado, Goya. Madrid</p>
+          </article>
+          <article class="contenedor-espacio">
+            <a rel="noopener" href="https://www.elcorteingles.es/centroscomerciales/es/eci/centros/centro-comercial-sanchinarro">
+              <img src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/02/r1GOoJhhoT.jpeg?impolicy=Resize&width=1920" alt="Gourmet">
+            </a>
+            <p>Club del Gourmet, Sanchinarro. Madrid</p>
+          </article>
+          <article class="contenedor-espacio">
+            <a rel="noopener" href="https://www.elcorteingles.es/centroscomerciales/es/eci/centros/centro-comercial-gran-via">
+              <img src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/03/SklsBSZwT6.jpeg?impolicy=Resize&width=1920" alt="Libros">
+            </a>
+            <p>Libros. Bilbao</p>
+          </article>
+        </div>
+      </section>
+      <section id="novedades">
+        <article id="titulo-novedades">
+          <h2>Novedades</h2>
+          <p>Descubre lo último que acaba de aterrizar</p>
+        </article>
+        <div id="contenedor-main-novedad">
+        <article class="contenedor-novedad">
+        <a rel="noopener" href="https://www.elcorteingles.es/catalogos-digitales/vidaairelibre/">
+          <img src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/HJmVABTaXR.jpeg?impolicy=Resize&width=1920" alt="Aire Libre">
+        </a>
+        <p>Catálogo Vida Al Aire Libre</p>
+      </article>
+      <article class="contenedor-novedad">
+        <a rel="noopener" href="https://www.elcorteingles.es/deportes/columbia-built-for-her/"><img src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/SJ-MzvbmNA.jpeg?impolicy=Resize&width=1920" alt="Columbia">
+        </a>
+        <p>Colección Built For Her, Columbia</p>
+      </article>
+      <article class="contenedor-novedad">
+        <a rel="noopener" href="https://www.elcorteingles.es/perfumeria/A50540099-eau-de-parfum-allegra-chill-and-sole-100-ml-bvlgari/?parentProduct=A50540099&parentCategoryId=999.12077631013"><img src="https://cdn.grupoelcorteingles.es/statics/manager/contents/images/uploads/2024/05/HkfpyvWmE0.jpeg?impolicy=Resize&width=1920" alt="Parfum Allegr"></a>
+        <p>Eau de Parfum Allegra Chill and Sole 100 ml Bvlgari</p>
+      </article>
+    </div>
+      </section>
+    </main>
+    <footer>
+      <div>
+      <img src="./assets/logo-footer.png" alt="logo-footer">
+      <p>© 1940-2024 El Corte Inglés S.A. Todos los derechos reservados.</p>
+    </div>
+    <div>
+      <nav>
+        <ul>
+          <li>
+          <a rel="noopener" href="https://cuenta.elcorteingles.es/condiciones-de-uso/?modal=1&locale=es&_gl=1*be69di*_ga*NDk4Nzg4MTU3LjE3MTcxNjE0Mzc.*_ga_XG9L1L3E0D*MTcxNzUwMDU1Mi4xMC4xLjE3MTc1MTkwMTguMC4wLjA.#_ga=2.145731251.620012381.1717161437-498788157.1717161437">Condiciones de uso</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://www.elcorteingles.es/politica-de-privacidad/">Politica de privacidad</a>
+        </li>
+        <li>
+          <a rel="noopener" href="https://cuenta.elcorteingles.es/politica-de-cookies/?modal=1&locale=es&_gl=1*12rxqr0*_ga*NDk4Nzg4MTU3LjE3MTcxNjE0Mzc.*_ga_XG9L1L3E0D*MTcxNzUwMDU1Mi4xMC4xLjE3MTc1MTkwMzYuMC4wLjA.#_ga=2.145731251.620012381.1717161437-498788157.1717161437">Política de Cookies</a>
+        </li>
+        </ul>
+      </nav>
+    </div>
+
+
+    </footer>
   </body>
 </html>
-
