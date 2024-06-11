@@ -88,6 +88,10 @@ header > form {
 }
 
 /* MAIN */
+
+main{
+  position: relative;
+}
 /* CATEGORIAS */
 #categorias ul {
   position: relative;
@@ -261,7 +265,8 @@ video {
 
 #novedades {
   position: relative;
-  top: 190px;
+  margin-top: 180px;
+
 }
 #titulo-novedades {
   text-align: center;
@@ -298,7 +303,7 @@ video {
 
 footer {
   position: relative;
-  top: 190px;
+
   display: flex;
   flex-wrap: nowrap;
   width: 100%;
